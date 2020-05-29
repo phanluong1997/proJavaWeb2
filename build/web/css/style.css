@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2019, 1:07:48 PM
+    Author     : Admin
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: yellow;
+    min-height: 30px;
+}
+main {
+    width: 1100px;
+    background-color: rgb(244,244,236);
+    height: fit-content;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 450px;
+    width: 1000px;
+    background-color: whitesmoke;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;/* chieu dai chieu rong ko bi*/
+}
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /*sdfsdfsfsdf */
+    clear: both;
+}
+input[type="button"],button{
+    padding: 5px 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 1s;
+}
+input[type="button"]:hover,button:hover {
+    background-color: red;
+    transform: scale(1.2);
+}
+table{
+    background-color: white;
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin: 0px;
+    margin-top: 50px;
+    width: 80%;
+    
+}
+td,th{
+    border:1px solid black;
+    padding: 10px;
+}
+th{
+    background-color: red;
+}
+input[type="text"] {
+    padding: 5px;
+    width: 50px;
+    font-size: 100%;
+}
+
+td[colspan="2"] {
+    text-align: center;
+    padding: 10px;
+}
+button{
+    width: 200px;
+    padding: 5px;
+    font-size: 100%;
+}
+h6{
+    padding: 5px;
+}
+
+div.about{
+            width: 600px;
+            float: left;
+            padding: 15px;
+            
+
+}
+about [id="phai"]{
+            width: 150px;
+            float: left;
+               padding: 100px;
+        }
+div.contact{
+            width: 400px;
+            float: left;
+
+        }
+
+div.link{
+            width: 300px;
+            float: left;
+
+        }
+        div.col-md-4{
+            float: left;
+        }
